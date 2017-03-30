@@ -1,0 +1,31 @@
+body {
+  background-image: url("../images/exclusive-paper.png"); }
+
+h1 {
+  text-align: center; }
+
+ul {
+  list-style: none; }
+
+li {
+  display: inline-block; }
+
+.item-container {
+  width: 250px;
+  text-align: center;
+  border-radius: 15%;
+  margin: auto; }
+
+.item-container + .item-container {
+  margin-top: 4%; }
+
+.item-container {
+  background-color: white; }
+
+img {
+  width: 100%; }
+
+footer {
+  background-color: white; }
+
+/*# sourceMappingURL=styles.css.map */
