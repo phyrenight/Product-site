@@ -1,14 +1,37 @@
 body {
-  background-image: url("../images/exclusive-paper.png"); }
+  background-image: url("../images/exclusive-paper.png");
+  margin: 0; }
 
-h1 {
+header {
   text-align: center; }
 
+header nav {
+  background-color: rgba(160, 160, 160, 0.6);
+  padding: 15px 0; }
+
+header a {
+  padding: 25px;
+  text-decoration: none;
+  color: black; }
+
 ul {
-  list-style: none; }
+  list-style: none;
+  padding: 0%;
+  margin: 0%; }
 
 li {
   display: inline-block; }
+
+main {
+  background-color: rgba(160, 160, 160, 0.6);
+  width: 90%;
+  margin: 25px auto; }
+
+section:first-child {
+  padding-top: 15px; }
+
+section:nth-child(3) {
+  padding-bottom: 15px; }
 
 .item-container {
   width: 250px;
@@ -25,7 +48,36 @@ li {
 img {
   width: 100%; }
 
+.item-container img {
+  height: 167px; }
+
+#modal-image {
+  width: 250px;
+  display: inline-block;
+  vertical-align: middle; }
+
+.details {
+  width: 300px;
+  display: inline-block;
+  vertical-align: middle; }
+
 footer {
-  background-color: white; }
+  background-color: rgba(160, 160, 160, 0.6);
+  position: relative;
+  bottom: 0%;
+  text-align: center; }
+
+@media (min-width: 700px) {
+  .row {
+    text-align: center; }
+
+  .item-container {
+    display: inline-block; }
+
+  .item-container + .item-container {
+    margin-left: 50px; } }
+@media (min-width: 1000px) {
+  .item-container + .item-container {
+    margin-left: 200px; } }
 
 /*# sourceMappingURL=styles.css.map */

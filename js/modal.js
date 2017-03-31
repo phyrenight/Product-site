@@ -2,34 +2,34 @@
   
   var bikes =[{
   	pic : "images/bicycle1640.jpg",
-  	descript: "",
-  	price: 0.00,
-  	name: "" 
+  	descript: "Quisque elementum, quam vitae lobortis ultricies, metus ligula volutpat lectus.",
+  	price: "0.00",
+  	name: "Quisque" 
   },{
     pic: "images/bicycle2640.jpg",
-    descript: "",
-    price: 0.00,
-    name: ""
+    descript: "Quisque elementum, quam vitae lobortis ultricies, metus ligula volutpat lectus.",
+    price: "0.00",
+    name: "Elementum"
   },{
   	pic: "images/bike3640.jpg",
-  	descript: "",
-  	price: 0.00,
-  	name: ""
+  	descript: "Quisque elementum, quam vitae lobortis ultricies, metus ligula volutpat lectus.",
+  	price: "0.00",
+  	name: "Ultricies"
   },{
   	pic: "images/bike4640.jpg",
-  	descript: "",
-  	price: 0.00,
-  	name: ""
+  	descript: "Quisque elementum, quam vitae lobortis ultricies, metus ligula volutpat lectus.",
+  	price: "0.00",
+  	name: "Quam"
   },{
   	pic: "images/bike5640.jpg",
-  	descript: "",
-  	price: 0.00,
-  	name: ""
+  	descript: "Quisque elementum, quam vitae lobortis ultricies, metus ligula volutpat lectus.",
+  	price: "0.00",
+  	name: "Vitae"
   },{
   	pic: "images/hybrid6640.jpg",
-  	descript: "",
-  	price: 0.00,
-  	name: ""
+  	descript: "Quisque elementum, quam vitae lobortis ultricies, metus ligula volutpat lectus.",
+  	price: "0.00",
+  	name: "Lobortis"
   }];
 
   var item1 = document.getElementById("item-container-1");
