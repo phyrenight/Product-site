@@ -32,17 +32,23 @@
   	name: "Lobortis"
   }];
 
-  var item1 = document.getElementById("item-container-1");
 
-  var item2 = document.getElementById("item-container-2");
+  let items = [];
+  
+  /** attaches click event to each bike container
+  */
+  let assignIdToItems = function(){
+    let i = 1;
+    const numberOfBikesOnPage = 6;
 
-  var item3 = document.getElementById("item-container-3");
-
-  var item4 = document.getElementById("item-container-4");
-
-  var item5 = document.getElementById("item-container-5");
-
-  var item6 = document.getElementById("item-container-6");
+    while(i <= 6){
+      items[i] = document.getElementById("item-container-"+ i);
+      i++;
+    }
+    for(let n in items){
+      items[n].onclick  = displayInfo;
+    }
+  }
 
   var span = document.getElementById("close");
 
@@ -55,18 +61,6 @@
   var modalPrice = document.getElementById("modal-price");
 
   var bikeDescription = document.getElementById("description");
-  
-  item1.onclick = displayInfo;
-
-  item2.onclick = displayInfo;
-
-  item3.onclick = displayInfo;
-
-  item4.onclick = displayInfo;
-
-  item5.onclick = displayInfo;
-
-  item6.onclick = displayInfo;
 
   span.onclick = function(){
     modal.style.display = "none";
@@ -86,4 +80,5 @@
     bikeDescription.innerHTML = bikes[str].descript;
  }
 
+assignIdToItems();
 })();
